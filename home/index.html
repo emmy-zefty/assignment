@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanueloyelola assignment</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link href="style.css"  rel="stylesheet"   >      
+</head>
+<p>In this example, there's an article element with a title and content, and a separate element <p> representing a regular paragraph. The styling is minimal, but it helps</p> distinguish the article element with a border and some padding. Open this code in a web browser to see how the two elements are visually represented.</p>
+
+<article>
+<p>
+    In this example, there's an  element with a title and content, and a separate <p> element representing a regular paragraph. The styling is minimal, but it helps distinguish the  element with a border and some padding.<p> Open this code in a web browser</p> to see how <p>the two elements are visually </p>represented.
+</p>
+
+
+</article>
+    
+<body>
+    <form action="/submit_registration" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+        <br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+        <label for="weight">Weight (KG):</label>
+        <input type="number" id="weight" name="weight" min="1" step="0.1" required>
+        <br>
+
+        <label for="height">Height (CM):</label>
+        <input type="number" id="height" name="height" min="1" step="0.1" required>
+        <br>
+
+        <label for="activity_level">Activity Level:</label>
+        <select id="activity_level" name="activity_level">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+</body>
+</html>
